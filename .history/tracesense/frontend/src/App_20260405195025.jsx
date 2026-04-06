@@ -6,7 +6,7 @@ import LogFeed from "./components/LogFeed";
 import Landing from "./components/Landing";
 import "./App.css";
 
-const API = "https://sm15-tracesense.hf.space"
+const API = "http://localhost:8000";
 
 export default function App() {
   const [showLanding, setShowLanding] = useState(true);

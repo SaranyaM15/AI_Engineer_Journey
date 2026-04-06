@@ -31,3 +31,4 @@ __pycache__/
 node_modules/
 frontend/dist/
 *.sqlite3
+.vercel
