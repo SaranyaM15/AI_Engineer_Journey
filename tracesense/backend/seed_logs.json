@@ -1,0 +1,398 @@
+[
+  {
+    "service": "postgres-db",
+    "level": "INFO",
+    "message": "query OK table=inventory duration=173ms connections=28/100",
+    "timestamp": "2026-04-06T01:42:30.782114+00:00"
+  },
+  {
+    "service": "order-service",
+    "level": "INFO",
+    "message": "Order created successfully order_id=4346x98",
+    "timestamp": "2026-04-06T01:42:30.782145+00:00"
+  },
+  {
+    "service": "payment-service",
+    "level": "INFO",
+    "message": "Charge successful stripe_id=ch_718931",
+    "timestamp": "2026-04-06T01:42:30.782159+00:00"
+  },
+  {
+    "service": "inventory-service",
+    "level": "INFO",
+    "message": "GET /check-stock status=200 duration=132ms",
+    "timestamp": "2026-04-06T01:42:30.782170+00:00"
+  },
+  {
+    "service": "frontend-service",
+    "level": "INFO",
+    "message": "Checkout complete for user_42295",
+    "timestamp": "2026-04-06T01:42:30.782180+00:00"
+  },
+  {
+    "service": "payment-service",
+    "level": "INFO",
+    "message": "Charge successful stripe_id=ch_641025",
+    "timestamp": "2026-04-06T01:42:30.782190+00:00"
+  },
+  {
+    "service": "payment-service",
+    "level": "INFO",
+    "message": "Charge successful stripe_id=ch_568889",
+    "timestamp": "2026-04-06T01:42:30.782199+00:00"
+  },
+  {
+    "service": "postgres-db",
+    "level": "INFO",
+    "message": "query OK table=inventory duration=124ms connections=32/100",
+    "timestamp": "2026-04-06T01:42:30.782209+00:00"
+  },
+  {
+    "service": "postgres-db",
+    "level": "INFO",
+    "message": "query OK table=inventory duration=131ms connections=20/100",
+    "timestamp": "2026-04-06T01:42:30.782219+00:00"
+  },
+  {
+    "service": "postgres-db",
+    "level": "INFO",
+    "message": "query OK table=orders duration=160ms connections=30/100",
+    "timestamp": "2026-04-06T01:42:30.782228+00:00"
+  },
+  {
+    "service": "payment-service",
+    "level": "INFO",
+    "message": "Charge successful stripe_id=ch_946368",
+    "timestamp": "2026-04-06T01:42:30.782237+00:00"
+  },
+  {
+    "service": "payment-service",
+    "level": "INFO",
+    "message": "Charge successful stripe_id=ch_640475",
+    "timestamp": "2026-04-06T01:42:30.782246+00:00"
+  },
+  {
+    "service": "frontend-service",
+    "level": "INFO",
+    "message": "POST /checkout user_id=44928 status=200 duration=133ms",
+    "timestamp": "2026-04-06T01:42:30.782255+00:00"
+  },
+  {
+    "service": "frontend-service",
+    "level": "INFO",
+    "message": "Checkout complete for user_95181",
+    "timestamp": "2026-04-06T01:42:30.782264+00:00"
+  },
+  {
+    "service": "postgres-db",
+    "level": "INFO",
+    "message": "query OK table=orders duration=161ms connections=18/100",
+    "timestamp": "2026-04-06T01:42:30.782273+00:00"
+  },
+  {
+    "service": "inventory-service",
+    "level": "INFO",
+    "message": "Stock check OK item_id=73 quantity=32",
+    "timestamp": "2026-04-06T01:42:30.782282+00:00"
+  },
+  {
+    "service": "frontend-service",
+    "level": "INFO",
+    "message": "POST /checkout user_id=96977 status=200 duration=178ms",
+    "timestamp": "2026-04-06T01:42:30.782291+00:00"
+  },
+  {
+    "service": "inventory-service",
+    "level": "INFO",
+    "message": "GET /check-stock status=200 duration=168ms",
+    "timestamp": "2026-04-06T01:42:30.782300+00:00"
+  },
+  {
+    "service": "order-service",
+    "level": "INFO",
+    "message": "Order created successfully order_id=4382x56",
+    "timestamp": "2026-04-06T01:42:30.782310+00:00"
+  },
+  {
+    "service": "inventory-service",
+    "level": "INFO",
+    "message": "GET /check-stock status=200 duration=162ms",
+    "timestamp": "2026-04-06T01:42:30.782319+00:00"
+  },
+  {
+    "service": "inventory-service",
+    "level": "INFO",
+    "message": "GET /check-stock status=200 duration=156ms",
+    "timestamp": "2026-04-06T01:42:30.782328+00:00"
+  },
+  {
+    "service": "postgres-db",
+    "level": "INFO",
+    "message": "query OK table=orders duration=154ms connections=14/100",
+    "timestamp": "2026-04-06T01:42:30.782337+00:00"
+  },
+  {
+    "service": "frontend-service",
+    "level": "INFO",
+    "message": "POST /checkout user_id=67804 status=200 duration=171ms",
+    "timestamp": "2026-04-06T01:42:30.782346+00:00"
+  },
+  {
+    "service": "postgres-db",
+    "level": "INFO",
+    "message": "query OK table=inventory duration=129ms connections=38/100",
+    "timestamp": "2026-04-06T01:42:30.782355+00:00"
+  },
+  {
+    "service": "payment-service",
+    "level": "INFO",
+    "message": "Payment processed for order_8135x91",
+    "timestamp": "2026-04-06T01:42:30.782363+00:00"
+  },
+  {
+    "service": "payment-service",
+    "level": "INFO",
+    "message": "Payment processed for order_9705x94",
+    "timestamp": "2026-04-06T01:42:30.782372+00:00"
+  },
+  {
+    "service": "postgres-db",
+    "level": "INFO",
+    "message": "query OK table=inventory duration=158ms connections=18/100",
+    "timestamp": "2026-04-06T01:42:30.782382+00:00"
+  },
+  {
+    "service": "payment-service",
+    "level": "INFO",
+    "message": "Payment processed for order_3371x55",
+    "timestamp": "2026-04-06T01:42:30.782391+00:00"
+  },
+  {
+    "service": "frontend-service",
+    "level": "INFO",
+    "message": "POST /checkout user_id=85646 status=200 duration=134ms",
+    "timestamp": "2026-04-06T01:42:30.782400+00:00"
+  },
+  {
+    "service": "order-service",
+    "level": "INFO",
+    "message": "Order created successfully order_id=2291x74",
+    "timestamp": "2026-04-06T01:42:30.782409+00:00"
+  },
+  {
+    "service": "postgres-db",
+    "level": "WARN",
+    "message": "query slow table=inventory duration=3293ms connections=91/100",
+    "timestamp": "2026-04-06T01:42:30.782425+00:00"
+  },
+  {
+    "service": "postgres-db",
+    "level": "WARN",
+    "message": "connection pool pressure connections=92/100 queries queuing",
+    "timestamp": "2026-04-06T01:42:30.782437+00:00"
+  },
+  {
+    "service": "postgres-db",
+    "level": "ERROR",
+    "message": "query timeout table=inventory duration=5001ms connection pool FULL",
+    "timestamp": "2026-04-06T01:42:30.782447+00:00"
+  },
+  {
+    "service": "inventory-service",
+    "level": "ERROR",
+    "message": "upstream timeout host=postgres-db duration=3002ms stock check failed",
+    "timestamp": "2026-04-06T01:42:30.782457+00:00"
+  },
+  {
+    "service": "order-service",
+    "level": "ERROR",
+    "message": "inventory check failed service=inventory-service status=503 order unverifiable",
+    "timestamp": "2026-04-06T01:42:30.782466+00:00"
+  },
+  {
+    "service": "payment-service",
+    "level": "WARN",
+    "message": "rejected charge order not in verified state order_id=9382x35",
+    "timestamp": "2026-04-06T01:42:30.782476+00:00"
+  },
+  {
+    "service": "frontend-service",
+    "level": "ERROR",
+    "message": "payment failed user_id=68288 code=402 payment rejected checkout failed",
+    "timestamp": "2026-04-06T01:42:30.782486+00:00"
+  },
+  {
+    "service": "node-api",
+    "level": "WARN",
+    "message": "heap memory usage at 78% \u2014 possible memory leak detected",
+    "timestamp": "2026-04-06T01:42:30.782500+00:00"
+  },
+  {
+    "service": "node-api",
+    "level": "WARN",
+    "message": "heap memory usage critical 94% \u2014 GC pressure increasing response times",
+    "timestamp": "2026-04-06T01:42:30.782510+00:00"
+  },
+  {
+    "service": "auth-service",
+    "level": "WARN",
+    "message": "token validation slow \u2014 upstream node-api response time 2800ms",
+    "timestamp": "2026-04-06T01:42:30.782519+00:00"
+  },
+  {
+    "service": "node-api",
+    "level": "ERROR",
+    "message": "FATAL heap out of memory \u2014 process killed by OOM killer",
+    "timestamp": "2026-04-06T01:42:30.782530+00:00"
+  },
+  {
+    "service": "auth-service",
+    "level": "ERROR",
+    "message": "upstream node-api unreachable \u2014 all token validations failing status=503",
+    "timestamp": "2026-04-06T01:42:30.782539+00:00"
+  },
+  {
+    "service": "api-gateway",
+    "level": "ERROR",
+    "message": "auth-service returning 503 \u2014 rejecting all incoming requests unauthorized",
+    "timestamp": "2026-04-06T01:42:30.782548+00:00"
+  },
+  {
+    "service": "frontend-service",
+    "level": "ERROR",
+    "message": "user session expired \u2014 forced logout user_id=23754 error=auth_unavailable",
+    "timestamp": "2026-04-06T01:42:30.782559+00:00"
+  },
+  {
+    "service": "cache-service",
+    "level": "WARN",
+    "message": "Redis memory usage at 89% \u2014 eviction policy active maxmemory-policy allkeys-lru",
+    "timestamp": "2026-04-06T01:42:30.782568+00:00"
+  },
+  {
+    "service": "cache-service",
+    "level": "WARN",
+    "message": "Redis connection pool exhausted \u2014 max clients 500 reached \u2014 new connections refused",
+    "timestamp": "2026-04-06T01:42:30.782578+00:00"
+  },
+  {
+    "service": "session-service",
+    "level": "ERROR",
+    "message": "session lookup failed \u2014 Redis unreachable \u2014 falling back to database",
+    "timestamp": "2026-04-06T01:42:30.782587+00:00"
+  },
+  {
+    "service": "cache-service",
+    "level": "ERROR",
+    "message": "Redis READONLY error \u2014 replica promoted but master unavailable \u2014 writes failing",
+    "timestamp": "2026-04-06T01:42:30.782596+00:00"
+  },
+  {
+    "service": "order-service",
+    "level": "ERROR",
+    "message": "cart data lost \u2014 Redis evicted session keys \u2014 user cart empty on checkout",
+    "timestamp": "2026-04-06T01:42:30.782614+00:00"
+  },
+  {
+    "service": "payment-service",
+    "level": "ERROR",
+    "message": "duplicate payment detected \u2014 idempotency key missing from cache \u2014 transaction unsafe",
+    "timestamp": "2026-04-06T01:42:30.782623+00:00"
+  },
+  {
+    "service": "frontend-service",
+    "level": "ERROR",
+    "message": "checkout failed \u2014 cart unexpectedly empty \u2014 user_id=56054 session lost",
+    "timestamp": "2026-04-06T01:42:30.782634+00:00"
+  },
+  {
+    "service": "kubernetes",
+    "level": "WARN",
+    "message": "pod payment-service-7x9k2 restarted 3 times in last 5 minutes \u2014 CrashLoopBackOff approaching",
+    "timestamp": "2026-04-06T01:42:30.782643+00:00"
+  },
+  {
+    "service": "payment-service",
+    "level": "ERROR",
+    "message": "OOMKilled \u2014 container exceeded memory limit 512Mi \u2014 process terminated by kernel",
+    "timestamp": "2026-04-06T01:42:30.782652+00:00"
+  },
+  {
+    "service": "kubernetes",
+    "level": "ERROR",
+    "message": "pod payment-service-7x9k2 CrashLoopBackOff \u2014 back-off 5m0s restarting failed container",
+    "timestamp": "2026-04-06T01:42:30.782663+00:00"
+  },
+  {
+    "service": "api-gateway",
+    "level": "ERROR",
+    "message": "upstream payment-service no healthy pods available \u2014 all instances down",
+    "timestamp": "2026-04-06T01:42:30.782673+00:00"
+  },
+  {
+    "service": "order-service",
+    "level": "ERROR",
+    "message": "payment processing unavailable \u2014 payment-service endpoint returning 503 \u2014 orders halted",
+    "timestamp": "2026-04-06T01:42:30.782681+00:00"
+  },
+  {
+    "service": "notification-service",
+    "level": "WARN",
+    "message": "order confirmation emails queuing \u2014 payment events not received \u2014 queue depth 847",
+    "timestamp": "2026-04-06T01:42:30.782690+00:00"
+  },
+  {
+    "service": "frontend-service",
+    "level": "ERROR",
+    "message": "payment gateway unavailable \u2014 user_id=74947 checkout blocked \u2014 service degraded",
+    "timestamp": "2026-04-06T01:42:30.782700+00:00"
+  },
+  {
+    "service": "load-balancer",
+    "level": "WARN",
+    "message": "health check failing for us-east-1b \u2014 3 consecutive failures \u2014 removing from pool",
+    "timestamp": "2026-04-06T01:42:30.782709+00:00"
+  },
+  {
+    "service": "postgres-db",
+    "level": "ERROR",
+    "message": "replication lag critical \u2014 replica us-east-1b 47 seconds behind primary \u2014 split brain risk",
+    "timestamp": "2026-04-06T01:42:30.782719+00:00"
+  },
+  {
+    "service": "load-balancer",
+    "level": "ERROR",
+    "message": "us-east-1b completely removed from pool \u2014 all traffic rerouted to us-east-1a \u2014 capacity at 200%",
+    "timestamp": "2026-04-06T01:42:30.782728+00:00"
+  },
+  {
+    "service": "postgres-db",
+    "level": "ERROR",
+    "message": "primary overloaded \u2014 connection count 1847/1000 \u2014 queries queuing \u2014 response time 8900ms",
+    "timestamp": "2026-04-06T01:42:30.782737+00:00"
+  },
+  {
+    "service": "order-service",
+    "level": "ERROR",
+    "message": "database write timeout after 9000ms \u2014 order_8428x62 not persisted \u2014 data loss risk",
+    "timestamp": "2026-04-06T01:42:30.782748+00:00"
+  },
+  {
+    "service": "inventory-service",
+    "level": "ERROR",
+    "message": "stock count inconsistent \u2014 reads from stale replica \u2014 overselling risk detected",
+    "timestamp": "2026-04-06T01:42:30.782757+00:00"
+  },
+  {
+    "service": "payment-service",
+    "level": "ERROR",
+    "message": "transaction rollback failed \u2014 database unreachable \u2014 payment state unknown order_id=7732x28",
+    "timestamp": "2026-04-06T01:42:30.782766+00:00"
+  },
+  {
+    "service": "frontend-service",
+    "level": "ERROR",
+    "message": "checkout error \u2014 payment state unknown \u2014 user_id=47608 shown generic error",
+    "timestamp": "2026-04-06T01:42:30.782777+00:00"
+  }
+]

@@ -229,63 +229,6 @@ NETWORK_PARTITION_INCIDENT = [
     },
 ]
 
-MEMORY_LEAK_INCIDENT = [
-    {
-        "service": "node-api",
-        "level":   "WARN",
-        "message": "heap memory usage at 78% — possible memory leak detected",
-        "delay":   0
-    },
-    {
-        "service": "node-api",
-        "level":   "WARN",
-        "message": "heap memory usage critical 94% — GC pressure increasing response times",
-        "delay":   2
-    },
-    {
-        "service": "auth-service",
-        "level":   "WARN",
-        "message": "token validation slow — upstream node-api response time 2800ms",
-        "delay":   4
-    },
-    {
-        "service": "node-api",
-        "level":   "ERROR",
-        "message": "FATAL heap out of memory — process killed by OOM killer",
-        "delay":   6
-    },
-    {
-        "service": "auth-service",
-        "level":   "ERROR",
-        "message": "upstream node-api unreachable — all token validations failing status=503",
-        "delay":   7
-    },
-    {
-        "service": "api-gateway",
-        "level":   "ERROR",
-        "message": "auth-service returning 503 — rejecting all incoming requests unauthorized",
-        "delay":   8
-    },
-    {
-        "service": "frontend-service",
-        "level":   "ERROR",
-        "message": "user session expired — forced logout user_id={uid} error=auth_unavailable",
-        "delay":   9
-    },
-]
-
-def simulate_memory_leak_incident():
-    print("\n--- INCIDENT: Memory Leak Cascade ---\n")
-    base_time = time.time()
-    for stage in MEMORY_LEAK_INCIDENT:
-        while time.time() < base_time + stage["delay"]:
-            time.sleep(0.1)
-        vals    = random_vals()
-        message = stage["message"].format(**vals)
-        send_log(stage["service"], stage["level"], message)
-    print("\n--- Memory leak incident complete ---\n")
-
-
 def simulate_network_partition():
     print("\n--- INCIDENT: Network Partition Split Brain ---\n")
     base_time = time.time()
